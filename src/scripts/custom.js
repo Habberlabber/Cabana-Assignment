@@ -12,9 +12,13 @@ $(document).ready(function(){
   /*
   | Animations
   */
-
+  var viewportHeight = $(window).height();
   $(".animateIn").css("opacity", "0");
-  onViewport("header.animateIn", "animated fadeInDown", 0);
+  onViewport(".animateIn.down", "animated fadeInDown", 0);
+  onViewport(".animateIn.left", "animated fadeInLeft", viewportHeight);
+  onViewport(".animateIn.up", "animated fadeInUp", viewportHeight);
+  onViewport(".animateIn.right", "animated fadeInRight", viewportHeight);
+  onViewport(".animateIn.fade", "animated fadeIn", viewportHeight-200);
 
   /*
   | Validation
