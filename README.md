@@ -10,7 +10,7 @@ The original assignment along with the design files can be found in the `/Assign
 
 ## Building project
 
-You can build the project using the `npm run build` script
+You can build the project using the `npm run build` script, when done you will find the build version of the project in the `/dist` directory.
 
 ## Reasoning for choise of dependencies, libraries, naming methodologys etc.  
 
