@@ -12,7 +12,7 @@ A demo of the project can be found on (http://habber.dk/cabana/)[http://habber.d
 
 ## Building project
 
-You can build the project using the `npm run build` of `gulp build` script, when done you will find the build version of the project in the `/dist` directory.
+You can build the project using the `npm run build` or `gulp build` script, when done you will find the build version of the project in the `/dist` directory.
 
 ## Reasoning for choise of dependencies, libraries, naming methodologys etc.  
 
