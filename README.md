@@ -8,11 +8,11 @@ A demo of the project can be found on (http://habber.dk/cabana/)[http://habber.d
 
 1. Download/Clone the repo. 
 2. Run `npm install` to install dependencies
-3. Run `npm start` to start the development server and open in default browser
+3. Run `npm start` or `gulp` to start the development server and open in default browser
 
 ## Building project
 
-You can build the project using the `npm run build` script, when done you will find the build version of the project in the `/dist` directory.
+You can build the project using the `npm run build` of `gulp build` script, when done you will find the build version of the project in the `/dist` directory.
 
 ## Reasoning for choise of dependencies, libraries, naming methodologys etc.  
 
