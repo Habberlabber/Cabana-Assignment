@@ -1,0 +1,23 @@
+/*
+|--------------------------------------------------------------------------
+| FOOTER.SCSS
+|--------------------------------------------------------------------------
+*/
+
+.footer {
+  display: flex;
+  align-items: center;
+
+  min-height: 255px;
+
+  &__content {
+    
+  }
+
+  &__content_small {
+    font-size: 0.87rem;
+    p {
+      margin-bottom: .3rem;
+    }
+  }
+}
