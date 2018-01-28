@@ -36,7 +36,7 @@ gulp.task('scripts:bootstrap', ['scripts:bootstrap:jquery', 'scripts:bootstrap:p
 
 // Moves jquery scripts to the vender script location
 gulp.task('scripts:bootstrap:jquery', function() {
-  gulp.src('node_modules/jquery/jquery.min.js')
+  gulp.src('node_modules/jquery/dist/jquery.min.js')
     .pipe(gulp.dest(conf.path.dest.scripts.vendor));
 });
 
