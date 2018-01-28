@@ -49,7 +49,7 @@ $(document).ready(function(){
       },
       phone: {
         required: "Dette felt er påkrævet",
-        minlength: "Dit telefon nummer skal mindste være 8 tegn"
+        minlength: "Dit telefonnummer skal mindste være 8 tegn"
       }
     },
     submitHandler: function(form) {
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
   // @TODO make theise two functions into one
   $(".header__button").click(function() {
-    // Calculate offest form current position to contact element and make delay half
+    // Calculate offest from current position to contact element and make delay half
     var delay = ( $(".contact").offset().top - $(window).scrollTop() ) / 2;
     $('html, body').animate({
         scrollTop: $(".contact").offset().top
@@ -74,8 +74,8 @@ $(document).ready(function(){
   });
 
   $(".hero__scrollArrow").click(function() {
-    // Calculate offest form current position to contact element and make delay half
-    var delay = ( $(".content").offset().top - $(window).scrollTop() );
+    // Calculate offest from current position to contact element
+    var delay = $(".content").offset().top - $(window).scrollTop();
     $('html, body').animate({
         scrollTop: $(".content").offset().top
     }, delay);
