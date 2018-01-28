@@ -67,7 +67,6 @@ $(document).ready(function(){
   $(".header__button").click(function() {
     // Calculate offest form current position to contact element and make delay half
     var delay = ( $(".contact").offset().top - $(window).scrollTop() ) / 2;
-    console.log(delay);
     $('html, body').animate({
         scrollTop: $(".contact").offset().top
     }, delay);
