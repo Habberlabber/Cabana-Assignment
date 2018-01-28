@@ -20,11 +20,17 @@ gulp.task('scripts:custom', function() {
 });
 
 // Moves npm dependencie and custom vendor scripts to the vender script destination location
-gulp.task('scripts:vendor', ['scripts:bootstrap', 'scripts:custom:vendor']);
+gulp.task('scripts:vendor', ['scripts:bootstrap', 'scripts:custom:vendor', 'scripts:validation']);
 
 // Moves custom vendor scripts to the vender script location
 gulp.task('scripts:custom:vendor', function() {
   gulp.src(conf.path.src.scripts.vendor + '/*.js')
+    .pipe(gulp.dest(conf.path.dest.scripts.vendor));
+});
+
+// Moves jquery scripts to the vender script location
+gulp.task('scripts:validation', function() {
+  gulp.src('node_modules/jquery-validation/dist/jquery.validate.min.js')
     .pipe(gulp.dest(conf.path.dest.scripts.vendor));
 });
 
