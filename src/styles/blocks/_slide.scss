@@ -46,9 +46,19 @@
 
   }
 
+  &__area-text_left {
+    padding-left: 145px; 
+  }
+
   &__area-image {
     background-image: url('../assets/images/section-one-image.png');
     background-size: cover;
     background-position: center;
   }
+
+  &__area-image_two {
+    background-image: url('../assets/images/section-two-image.png');
+
+  }
+
 }
