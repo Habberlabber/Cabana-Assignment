@@ -16,11 +16,13 @@ module.exports = {
   path: {
     src: {
       base: src,
-      scss: src + '/styles'
+      scss: src + '/styles',
+      assets: src + '/assets'
     },
     dest: {
       base: dest,
-      css: dest + '/styles'
+      css: dest + '/styles',
+      assets: dest + '/assets'
     },
   },
 };
