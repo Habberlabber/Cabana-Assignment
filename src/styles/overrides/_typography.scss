@@ -10,4 +10,8 @@
 .lead {
   text-transform: uppercase;
   letter-spacing: 4px;
+
+  &__small {
+    font-size: 0.625rem
+  }
 }
