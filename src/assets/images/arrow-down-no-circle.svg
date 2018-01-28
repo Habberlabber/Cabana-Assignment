@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="40px" viewBox="0 0 26 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-787.000000, -778.000000)">
+        <g id="Top-slide" fill="#FFFFFF">
+            <g id="Arrow---down" transform="translate(761.000000, 758.000000)">
+                <polygon id="Shape" transform="translate(39.000000, 39.866721) scale(-1, -1) rotate(-90.000000) translate(-39.000000, -39.866721) " points="45.8737792 26.8667213 44.8411464 27.899187 56.0702845 39.1358729 19.1332787 39.1358729 19.1332787 40.5975698 56.0722091 40.5975698 44.8411464 51.83233 45.8737792 52.8667213 58.8667213 39.8670714"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
