@@ -24,11 +24,11 @@ Gulp was chosen for the task manager as i am more familliar with it, than grunt 
 
 #### Gulp Autoprefixer
 
-Gulp autoprefixer is used to make the styling job easier, and improje browser compatibility.
+Gulp autoprefixer is used to make the styling job easier, and improve browser compatibility.
 
 ### Bootstrap
 
-I chose to use bootstrap for this assignment, since it is the framework mentioned in the assignment documentation i have the most experience with. Another option i have more experience with would be UIKIT.
+I chose to use bootstrap for this assignment, since it is the framework mentioned in the assignment documentation i have the most experience with. Another option i have more experience with would be [UIKIT](https://getuikit.com).
 
 
 ### jQuery
@@ -41,7 +41,7 @@ jQuery validation was the fastest way to implement frontend form validation for 
 
 ### Animate.css
 
-Since i wanted to make the page more interesting with a bit of animation i found Animate.css to be an easy solition for this purpose.
+Since i wanted to make the page more interesting with a bit of animation i found [Animate.css](https://github.com/daneden/animate.css/) to be an easy solition for this purpose.
 
 ### onViewport.js
 
