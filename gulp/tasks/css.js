@@ -14,12 +14,18 @@ const sass         = require('gulp-sass');
 const conf = require('../gulpconfig');
 
 // Task for prefixing and compiling SCSS to CSS
-gulp.task('css', function() {
+gulp.task('css', ['css:vendor'], function() {
   return gulp.src([conf.path.src.scss + '/**/*.{scss,sass}'])
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions']
     }))
+    .pipe(gulp.dest(conf.path.dest.css));
+});
+
+// Moves npm dependencie and custom vendor scripts to the vender script destination location
+gulp.task('css:vendor', function() {
+  gulp.src('node_modules/animate.css/animate.min.css')
     .pipe(gulp.dest(conf.path.dest.css));
 });
 
