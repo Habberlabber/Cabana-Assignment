@@ -50,15 +50,31 @@
     padding-left: 145px; 
   }
 
-  &__area-image {
+  &__area-image .image {
+    height: 100%;
     background-image: url('../assets/images/section-one-image.png');
     background-size: cover;
     background-position: center;
   }
 
-  &__area-image_two {
+  &__area-image_two .image {
     background-image: url('../assets/images/section-two-image.png');
 
+  }
+
+  @include media-breakpoint-down(md) {
+    &__area-text {
+      padding-left: 0; 
+      h1::before {
+        display: none;
+      }
+    }
+  }  
+
+  @include media-breakpoint-down(sm) {
+    &__area-text {
+      min-height: auto;
+    }
   }
 
 }
