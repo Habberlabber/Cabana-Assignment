@@ -13,7 +13,7 @@ const watch = require('gulp-watch');
 const conf = require('../gulpconfig');
 
 // Task watching for changes and ruinng approiate tasks
-gulp.task('watch', ['css', 'html', 'assets', 'browser-sync'], function() {
+gulp.task('watch', ['css', 'html', 'scripts', 'assets', 'browser-sync'], function() {
   gulp.watch(conf.path.src.scss + '/**/*.scss', ['css:watch']);
   gulp.watch(conf.path.src.base + '/*.html', ['html:watch']);
   gulp.watch(conf.path.src.assets + '/**/*.*', ['assets:watch']);
