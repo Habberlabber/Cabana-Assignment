@@ -17,3 +17,5 @@ global.browserSync = browserSync;
 requireDir('./gulp/tasks', {recurse: false});
 
 gulp.task('default', ['watch']);
+
+gulp.task('build', ['html', 'assets', 'css', 'scripts']);
