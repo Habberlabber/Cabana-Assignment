@@ -1,0 +1,54 @@
+/*
+|--------------------------------------------------------------------------
+| SLIDE.SCSS
+|--------------------------------------------------------------------------
+|
+| The slide block a content element contianing specific text styles
+| It also contains an image, or a content area, related to the text
+|
+*/
+
+.slide {
+  padding: 45px 0;
+
+  &__area {
+    min-height: 550px;
+  }
+
+  &__area-text {
+    box-sizing: border-box;
+    padding-left: 155px; 
+    padding-top: 40px;
+
+    h1 {
+      position: relative;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 50px;
+
+      &::before {
+        content: "";
+
+        width: 60px;
+        height: 1px;
+
+        background-color: $black;
+
+        position: absolute;
+        left: -110px;
+        top: .7em;
+      }
+    }
+
+    p {
+      max-width: 550px;
+      line-height: 30px;
+    }
+
+  }
+
+  &__area-image {
+    background-image: url('../assets/images/section-one-image.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
