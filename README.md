@@ -37,7 +37,7 @@ jQuery is used since it makes the javascript part of this assignment easier, and
 
 #### jQuery validation
 
-jQuery validation was the fastest way to implement frontend form validation for the contactform. 
+jQuery validation was what i found to be the fastest way to implement frontend form validation for the contactform. 
 
 ### Animate.css
 
