@@ -16,12 +16,26 @@
   }
 
   &__form {
+    position: relative;
     max-width: 400px;
     margin: auto;
     
     label.required::before {
       content: "* ";
       color: $red;
+    }
+
+    label.is-invalid {
+      color: $red;
+      display: block;
+    }
+
+    .contact-alert {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0;
+      pointer-events: none;
     }
 
   }

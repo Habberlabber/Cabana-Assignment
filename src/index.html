@@ -18,7 +18,6 @@
   <script src="scripts/vendor/bootstrap.min.js"></script>
 
   <script src="scripts/vendor/jquery.validate.min.js"></script>
-
   <script src="scripts/vendor/onViewport.js"></script>
   <script src="scripts/custom.js"></script>
 
@@ -176,25 +175,30 @@
       </div>
 
       <div class="contact__form">
-        <form>
+
+        <div class="alert alert-primary contact-alert" role="alert">
+          Tak for din besked! Vi kontakter dig hurtigst muligt
+        </div>
+
+        <form id="contact-form">
 
           <div class="form-group">
-            <input type="text" class="form-control" id="contactInputFirm">
+            <input type="text" class="form-control" id="contactInputFirm" name="firm" required>
             <label for="contactInputFirm" class="required">Firma</label>
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="contactInputName">
+            <input type="text" class="form-control" id="contactInputName" name="name" required>
             <label for="contactInputName" class="required">Navn</label>
           </div>
 
           <div class="form-group">
-            <input type="email" class="form-control" id="contactInputMail">
+            <input type="email" class="form-control" id="contactInputMail" name="email" required>
             <label for="contactInputMail" class="required">E-mail</label>
           </div>
 
           <div class="form-group">
-            <input type="email" class="form-control" id="contactInputPhone">
+            <input type="text" class="form-control" id="contactInputPhone" name="phone" required>
             <label for="contactInputPhone" class="required">Telefon</label>
           </div>
           

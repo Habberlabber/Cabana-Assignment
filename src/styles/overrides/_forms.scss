@@ -20,3 +20,8 @@
   box-shadow: none;
   border-bottom: $input-border-width solid #B5B5B5;
 }
+
+.form-control.is-invalid:focus {
+  outline: none;
+  box-shadow: none;
+}
