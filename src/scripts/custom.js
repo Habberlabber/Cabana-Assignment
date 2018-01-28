@@ -64,12 +64,21 @@ $(document).ready(function(){
   | Scroll to contact form
   */
 
+  // @TODO make theise two functions into one
   $(".header__button").click(function() {
     // Calculate offest form current position to contact element and make delay half
     var delay = ( $(".contact").offset().top - $(window).scrollTop() ) / 2;
     $('html, body').animate({
         scrollTop: $(".contact").offset().top
     }, delay);
-});
+  });
+
+  $(".hero__scrollArrow").click(function() {
+    // Calculate offest form current position to contact element and make delay half
+    var delay = ( $(".content").offset().top - $(window).scrollTop() );
+    $('html, body').animate({
+        scrollTop: $(".content").offset().top
+    }, delay);
+  });
 
 });
