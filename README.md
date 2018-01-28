@@ -2,7 +2,7 @@
 This repository contains the result of an assignment set by Caban A/S.  
 The original assignment along with the design files can be found in the `/Assignment` directory.  
   
-A demo of the project can be found on (http://habber.dk/cabana/)[http://habber.dk/cabana/]
+A demo of the project can be found on [http://habber.dk/cabana/](http://habber.dk/cabana/)
 
 ## Setup instructions
 
