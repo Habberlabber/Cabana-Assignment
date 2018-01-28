@@ -1,0 +1,21 @@
+/*
+|--------------------------------------------------------------------------
+| OVERRIDES - BUTTONS.SCSS 
+|--------------------------------------------------------------------------
+|
+| This file contains the bootstrap override styles for buttons
+|
+*/
+
+.btn {
+  font-size: 0.8em;
+  padding: 0.8rem 2rem;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border-color: rgba(255, 255, 255, .2);
+}
