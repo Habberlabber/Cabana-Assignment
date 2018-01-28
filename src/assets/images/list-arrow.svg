@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="13px" viewBox="0 0 7 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>list-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-155.000000, -2096.000000)">
+        <g id="Slide---2" transform="translate(50.000000, 1691.000000)" fill="#000000">
+            <g id="Bullets" transform="translate(105.000000, 262.000000)">
+                <path d="M1.12242729,143.205239 C0.855603452,142.927971 0.441522897,142.943195 0.206529814,143.181372 C-0.0635227222,143.455083 -0.0487479181,143.856527 0.182981373,144.097763 L5.4321078,149.561003 L0.182981373,154.881002 C-0.0700503079,155.137711 -0.0517660491,155.559465 0.182981373,155.797642 C0.312234588,155.928433 0.476582349,156 0.664478552,156 C0.840618081,156 0.993174075,155.928113 1.12242729,155.797642 L6.81778087,150.048775 C7.07151444,149.792848 7.04972073,149.361419 6.81778087,149.120468 L1.12242729,143.205239 L1.12242729,143.205239 Z" id="list-arrow"></path>
+            </g>
+        </g>
+    </g>
+</svg>
