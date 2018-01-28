@@ -7,7 +7,7 @@ A demo of the project can be found on (http://habber.dk/cabana/)[http://habber.d
 ## Setup instructions
 
 1. Download/Clone the repo. 
-2. Run `npm install` to isntall dependencies
+2. Run `npm install` to install dependencies
 3. Run `npm start` to start the development server and open in default browser
 
 ## Building project
