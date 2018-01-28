@@ -20,14 +20,19 @@
     max-width: 400px;
     margin: auto;
     
-    label.required::before {
-      content: "* ";
-      color: $red;
-    }
+    label {
+      font-size: 0.875rem;
 
-    label.is-invalid {
-      color: $red;
-      display: block;
+      &.required::before {
+        content: "* ";
+        color: $red;
+      }
+
+      &.is-invalid {
+        color: $red;
+        display: block;
+      }
+      
     }
 
     .contact-alert {
