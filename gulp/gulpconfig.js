@@ -17,12 +17,20 @@ module.exports = {
     src: {
       base: src,
       scss: src + '/styles',
-      assets: src + '/assets'
+      assets: src + '/assets',
+      scripts: {
+        base: src + '/scripts',
+        vendor: src + '/scripts/vendor',
+      }
     },
     dest: {
       base: dest,
       css: dest + '/styles',
-      assets: dest + '/assets'
+      assets: dest + '/assets',
+      scripts: {
+        base: dest + '/scripts',
+        vendor: dest + '/scripts/vendor',
+      }
     },
   },
 };

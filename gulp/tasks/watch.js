@@ -17,4 +17,5 @@ gulp.task('watch', ['css', 'html', 'assets', 'browser-sync'], function() {
   gulp.watch(conf.path.src.scss + '/**/*.scss', ['css:watch']);
   gulp.watch(conf.path.src.base + '/*.html', ['html:watch']);
   gulp.watch(conf.path.src.assets + '/**/*.*', ['assets:watch']);
+  gulp.watch(conf.path.src.scripts.base + '/**/*.*', ['scripts:custom:watch']);
 });
