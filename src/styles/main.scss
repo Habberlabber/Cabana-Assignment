@@ -1,0 +1,20 @@
+/*
+|--------------------------------------------------------------------------
+| MAIN.SCSS
+|--------------------------------------------------------------------------
+|
+| This file imports all the scss used for the application
+|
+*/
+
+// Importing variable SCSS file from the variables folder
+@import  "variables/variables";
+
+// Importing bootstrap SCSS to enable other styles to override variables etc
+@import  "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Imports the bootstrap override styles
+@import  "overrides/overrides"; 
+
+// Imports the block styles
+@import  "blocks/blocks";
