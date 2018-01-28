@@ -16,4 +16,11 @@
       margin-bottom: .3rem;
     }
   }
+
+  @include media-breakpoint-down(sm) {
+    &__content_small {
+      margin-top: 30px;
+    }
+  }
+
 }
