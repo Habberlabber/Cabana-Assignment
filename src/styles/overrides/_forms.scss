@@ -1,0 +1,22 @@
+/*
+|--------------------------------------------------------------------------
+| OVERRIDES - FORMS.SCSS 
+|--------------------------------------------------------------------------
+|
+| This file contains the bootstrap override styles for forms and inputs
+|
+*/
+
+.form-control {
+  border: 0;
+  border-bottom: $input-border-width solid $input-border-color;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 1.6rem;
+}
+
+.form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: $input-border-width solid #B5B5B5;
+}
