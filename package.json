@@ -2,7 +2,10 @@
   "name": "CabanaAssignment",
   "version": "1.0.0",
   "description": "Cabana frontend developer assignment",
-  "scripts": {},
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
   "author": "Kasper Laursen",
   "devDependencies": {
     "browser-sync": "^2.23.6",
