@@ -1,6 +1,6 @@
 # Cabana frontend developer assignment
 This repository contains the result of an assignment set by Caban A/S.  
-The original assignment along with the design files can be found in the `/Assignment` filder 
+The original assignment along with the design files can be found in the `/Assignment` directory 
 
 ## Setup instructions
 
