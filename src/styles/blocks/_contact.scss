@@ -1,0 +1,29 @@
+/*
+|--------------------------------------------------------------------------
+| CONTACT.SCSS
+|--------------------------------------------------------------------------
+*/
+
+.contact {
+  padding: 1rem;
+
+  &__container {
+    padding: 110px 0;
+  }
+
+  &__header {
+    margin-bottom: 110px;
+  }
+
+  &__form {
+    max-width: 400px;
+    margin: auto;
+    
+    label.required::before {
+      content: "* ";
+      color: $red;
+    }
+
+  }
+
+}
